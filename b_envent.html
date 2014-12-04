@@ -49,24 +49,85 @@
             </div>
     </div>
     <!--顶部结束-->
+    
+    <div class="layout_left_menu">
+        <ul id="menu">
+            <li class="childUlLi">
+                <div class="form-group">
+                    <a href="#"><button type="button" class="btn btn-primary btn-lg btn-block">事件列表</button></a>
+                </div>
+            </li>
+            <li class="childUlLi">
+                <div class="form-group">
+                    <a href="#"><button type="button" class="btn btn btn-success btn-lg btn-block">新增事件</button></a>
+                </div>
+            </li>
+            <li class="childUlLi">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label class="col-sm-4 control-label">日期</label>
+                    <div class="col-sm-8">
+                      <input type="date" class="form-control" id="inputEmail3" placeholder="date">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-4 control-label">大队</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="inputPassword3" placeholder="team">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-7">
+                      <button type="submit" class="btn btn-primary">查询</button>
+                    </div>
+                  </div>
+                 </form>
+            </li>
+            
+            <li class="childUlLi">
+                <table class="table table-bordered table-hover table-nonfluid text-center">
+                    <tr class="success">
+                        <td><a href="#">一大队</a></td>
+                        <td>安全教育</td>
+                    </tr>
+                    <tr class="warning">
+                        <td><a href="#">二大队</a></td>
+                        <td>安全教育</td>
+                    </tr>
+                    <tr class="danger">
+                        <td><a href="#">一大队</a></td>
+                        <td>安全教育</td>
+                    </tr>
+                    <tr  class="info">
+                        <td><a href="#">二大队</a></td>
+                        <td>安全教育</td>
+                    </tr>
+                    <tr class="warning">
+                        <td><a href="#">一大队</a></td>
+                        <td>安全教育</td>
+                    </tr>
+                </table>
+            </li>
+       </ul>
+    </div>
+    
     <!--菜单-->
-    <div id="layout_center_content" class="layout_center_content">
+    <div id="layout_right_content" class="layout_right_content">
         
         <div class="route_bg">
-            <table>
-                <tr>
-                    <td><a href="#"><button type="submit" class="btn btn-primary">新增</button></a></td>
-                    <td>
-                        <form class="form-inline" role="form" align="right">
-                            <div class="form-group">
-                                <label for="exampleInputEmail2">名称：</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="name">
-                            </div>
-                            <button type="submit" class="btn btn-primary">查询</button>
-                        </form>
-                    </td>
-                </tr>
-            </table>
+             <form class="form-inline" role="form" align="right">
+              <div class="form-group">
+                <label for="exampleInputEmail2">姓名：</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="name">
+              </div>
+              <div class="form-group">
+                  <label for="exampleInputEmail2">身份证：</label>
+                  <input class="form-control" type="email" placeholder="idCard">
+              </div>
+              <button type="submit" class="btn btn-primary">查询</button>
+              <a href="#"><button type="submit" class="btn btn-primary">新增</button></a>
+            </form>
+            
         </div>
         <div class="mian_content">
         <div class="col-sm-7 col-sm-offset-4 col-md-9 col-md-offset-1 main">
