@@ -1,0 +1,6 @@
+background {
+	background-image: url(../../../image/show_background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
