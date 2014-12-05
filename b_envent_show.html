@@ -49,14 +49,39 @@
             </div>
     </div>
     <!--顶部结束-->
+    
+    <div class="layout_left_menu">
+        <ul id="menu">
+            <li class="childUlLi">
+                <div class="form-group">
+                    <a href="#"><button type="button" class="btn btn-primary btn-lg btn-block">事件列表</button></a>
+                </div>
+            </li>
+            <li class="childUlLi">
+                <div class="form-group">
+                    <a href="#"><button type="button" class="btn btn btn-success btn-lg btn-block">新增事件</button></a>
+                </div>
+            </li>
+            <li class="childUlLi">
+                <div class="form-group">
+                    <a href="#"><button type="button" class="btn btn-warning btn-lg btn-block">开始签到</button></a>
+                </div>
+            </li>
+            <li class="childUlLi">
+                <div class="form-group">
+                    <a href="#"><button type="button" class="btn btn-danger btn-lg btn-block">导出excel表</button></a>
+                </div>
+            </li>
+       </ul>
+    </div>
+    
     <!--菜单-->
-    <div id="layout_center_content" class="layout_center_content">
+    <div id="layout_right_content" class="layout_right_content">
         
         <div class="route_bg">
             <table>
                 <tr>
-                    <td><a href="#"><button type="submit" class="btn btn-success">返回事件签到列表</button></a></td>
-                    <td>
+                    <td align="right">
                         <form class="form-inline" role="form" align="right">
                           <div class="form-group">
                             <label for="exampleInputEmail2">姓名：</label>
@@ -67,17 +92,17 @@
                               <input class="form-control" type="email" placeholder="idCard">
                           </div>
                           <button type="submit" class="btn btn-primary">查询</button>
-                          <a href="#"><button type="submit" class="btn btn-danger">开始签到</button></a>
+                          
                         </form>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="mian_content">
-        <div class="col-sm-7 col-sm-offset-4 col-md-9 col-md-offset-1 main">
+        <div class="col-sm-7 col-sm-offset-4 col-md-10 col-md-offset-1 main">
           <h4 class="text-right">签到总人数 50 人</h4>
           <h2 class="sub-header" align="center"><b>二大队安全教育签到列表</b></h2>
-          <h3 align="center">2014-12-03</h3>
+          <h4 align="center">2014-12-03</h4>
           <div class="table-responsive">
             <table class="table table-bordered table-hover table-nonfluid text-center">
               <thead>
@@ -129,15 +154,6 @@
                   <td class="text-center">无</td>
                 </tr>
                 <tr class="success">
-                  <td class="text-center"><a href="#">史航</a></td>
-                  <td class="text-center">女</td>
-                  <td class="text-center">1993.02</td>
-                  <td class="text-center">140602199302159023</td>
-                  <td class="text-center">山西太原</td>
-                  <td class="text-center">10：24</td>
-                  <td class="text-center">无</td>
-                </tr>
-                <tr class="warning">
                   <td class="text-center"><a href="#">史航</a></td>
                   <td class="text-center">女</td>
                   <td class="text-center">1993.02</td>
